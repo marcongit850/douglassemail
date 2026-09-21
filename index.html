@@ -1,146 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- BLOCK SEARCH ENGINES / SEO -->
-    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-    <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-
-    <title>Website Sandbox</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            min-height: 100%;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #091820;
-            color: white;
-        }
-
-        .page {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 30px;
-        }
-
-        .content {
-            max-width: 700px;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 8px 15px;
-            margin-bottom: 30px;
-
-            border: 1px solid rgba(200, 167, 106, 0.5);
-            border-radius: 50px;
-
-            color: #c8a76a;
-
-            font-size: 11px;
-            font-weight: bold;
-
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-
-        h1 {
-            font-size: clamp(50px, 8vw, 90px);
-            margin: 0 0 20px;
-            line-height: 1;
-        }
-
-        .line {
-            width: 60px;
-            height: 3px;
-
-            background: #c8a76a;
-
-            margin: 30px auto;
-        }
-
-        p {
-            color: #aab8bc;
-
-            font-size: 20px;
-            line-height: 1.6;
-
-            margin: 0 auto;
-
-            max-width: 600px;
-        }
-
-        .domain {
-            margin-top: 40px;
-
-            font-size: 13px;
-
-            letter-spacing: 3px;
-            text-transform: uppercase;
-
-            color: #c8a76a;
-        }
-
-        .notice {
-            margin-top: 18px;
-
-            font-size: 12px;
-
-            color: #5f737c;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Friends of Scenic 30A — protecting the natural beauty, scenic character, trails, and community heritage of Scenic 30A.">
+  <title>Friends of Scenic 30A</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Friends of Scenic 30A home">
+      <span>FRIENDS OF</span><strong>SCENIC<span>30A</span></strong>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about">About Us</a>
+      <a href="#involved">Get Involved</a>
+      <a href="#membership">Membership</a>
+      <a href="#impact">Our Impact</a>
+      <a href="#resources">Blog</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle color theme">☼</button>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
 
-    <div class="page">
-
-        <div class="content">
-
-            <div class="badge">
-                Development Environment
-            </div>
-
-            <h1>
-                Website Sandbox
-            </h1>
-
-            <div class="line"></div>
-
-            <p>
-                This domain is being used for website development,
-                testing and experimentation.
-            </p>
-
-            <div class="domain">
-                douglassemail.com
-            </div>
-
-            <div class="notice">
-                Private development environment · Not intended for search indexing
-            </div>
-
+  <main id="top">
+    <section class="hero section-blue">
+      <div class="hero-card">
+        <div class="mini-brand">FRIENDS OF <b>SCENIC<span>30A</span></b></div>
+        <h1>Preserving What Makes<br>30A Special</h1>
+        <p>Friends of Scenic 30A serves as the designated Byway Organization for Scenic Highway 30A, working to protect and enhance its natural beauty, scenic character, distinctive communities and quality of life.</p>
+        <div class="button-row">
+          <a class="button button-dark" href="#membership">Become a Member</a>
+          <a class="button" href="#involved">Donate</a>
+          <a class="button" href="#impact">Our Impact</a>
         </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="recognition">
+      <p>Scenic 30A is a designated Florida Scenic Highway and National Scenic Byway, recognitions Friends of Scenic 30A helped make possible.<br>To learn more about this designation, please visit the <a href="https://floridascenichighways.com/" target="_blank" rel="noopener">Florida Scenic Highways Program website</a>.</p>
+      <div class="highway-badge">FLORIDA SCENIC<br><b>HIGHWAYS</b></div>
+    </section>
 
+    <section class="why section-cream" id="about">
+      <div class="section-label">WHY 30A MATTERS</div>
+      <div class="why-copy">
+        <article><h2>More Than a Road</h2><p>SCENIC 30A CONNECTS A REMARKABLE COLLECTION OF BEACHES, COASTAL DUNE LAKES, STATE PARKS, FORESTS, TRAILS, AND DISTINCTIVE COMMUNITIES. TOGETHER, THESE NATURAL AND CULTURAL RESOURCES CREATE A SENSE OF PLACE UNLIKE ANYWHERE ELSE IN FLORIDA.</p></article>
+        <article><h2>Worth Protecting for Generations</h2><p>WHAT MAKES 30A SPECIAL CAN EASILY BE TAKEN FOR GRANTED. PROTECTING ITS NATURAL LANDSCAPES, SCENIC CHARACTER, TRAILS, AND COMMUNITY HERITAGE ENSURES THAT FUTURE GENERATIONS CAN EXPERIENCE THE SAME EXTRAORDINARY PLACE THAT RESIDENTS AND VISITORS TREASURE TODAY.</p></article>
+      </div>
+    </section>
+
+    <section class="involved section-green" id="involved">
+      <div class="involved-copy"><p class="eyebrow">You can help protect the future of Scenic 30A</p><h2>Get Involved</h2><div class="involved-grid"><div><h3>Donate</h3><p>Help protect and enhance Scenic 30A.</p><a class="button button-dark" href="mailto:info@douglassemail.com?subject=Donate">Donate →</a></div><div id="membership"><h3>Become a Member</h3><p>Join the community working to preserve what makes 30A special.</p><a class="button button-dark" href="mailto:info@douglassemail.com?subject=Membership">Join Us →</a></div></div></div>
+      <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85" alt="Beach dunes and sea grass along the coast" loading="lazy">
+    </section>
+
+    <section class="focus section-cream" id="impact"><div class="focus-grid"><article><h2>Protecting Natural<br>Resources</h2><p>We work to preserve Scenic 30A's coastal dune lakes, native vegetation, forests, dunes, beaches, and other natural resources that make this corridor unlike anywhere else.</p></article><article><h2>Preserving Scenic<br>30A</h2><p>We advocate for thoughtful planning, landscaping, infrastructure, and maintenance that protect the beauty and distinctive character of the Scenic 30A corridor.</p></article><article><h2>Improving Trails &amp;<br>Safety</h2><p>We work to improve walking, biking and transportation safety throughout the Scenic 30A corridor through trail and pedestrian improvements, signage, connectivity and thoughtful transportation planning.</p></article><article><h2>Educating &amp; Engaging<br>Our Community</h2><p>We bring residents, businesses, visitors, and local government together to understand, appreciate, and help protect Scenic 30A's natural, historic, and cultural resources.</p></article></div></section>
+
+    <section class="impact section-blue"><p class="eyebrow center">MORE THAN 20 YEARS OF IMPACT</p><div class="impact-cards"><article><h3>Florida Scenic Highway</h3><p>Helped secure Scenic 30A's designation as a Florida Scenic Highway.</p></article><article><h3>National Scenic Byway</h3><p>Helped prepare and advance the successful National Scenic Byway application.</p></article><article><h3>Friends' Corner</h3><p>Spearheaded the pedestrian and bicycle rest area at 30A and Eastern Lake Road.</p></article></div><a class="button center-button" href="#resources">EXPLORE OUR IMPACT →</a></section>
+
+    <section class="gallery section-cream"><h2>Along Scenic 30A</h2><div class="gallery-grid"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85" alt="Scenic coastal road" loading="lazy"><img src="https://images.unsplash.com/photo-1520769669658-f07657f5a307?auto=format&fit=crop&w=900&q=85" alt="Boardwalk through coastal dunes" loading="lazy"><img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=85" alt="Shaded nature trail" loading="lazy"></div><a class="button button-dark center-button" href="#resources">GALLERY</a></section>
+
+    <section class="resources section-blue" id="resources"><h2>SCENIC 30A RESOURCES</h2><p>Explore organizations and resources connected to Scenic 30A, South Walton and Florida's scenic highway community.</p><div class="resource-links"><a href="https://floridascenichighways.com/">30A</a><a href="https://www.byways.org/">America's Byways</a><a href="https://www.visitsouthwalton.com/">Beaches of South Walton</a><a href="https://floridascenichighways.com/">Florida Scenic Highways Program</a><a href="https://www.visitflorida.com/">Visit Florida</a><a href="https://waltonareachamber.com/">Walton Area Chamber of Commerce</a><a href="https://www.visitsouthwalton.com/">South Walton</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand">FLORIDA SCENIC<br><b>HIGHWAY</b><small>South Walton's<br>Scenic 30-A</small></div><div><h3>CONTACT</h3><p>Friends of Scenic 30A<br><u>877 N County Hwy 393</u><br><u>Santa Rosa Beach, FL 32459</u></p></div><div><h3>EXPLORE</h3><a href="#about">About Us</a><a href="#impact">Our Impact</a><a href="#resources">Blog</a></div><div><h3>GET INVOLVED</h3><a href="#membership">Become a Member</a><a href="#involved">Donate</a><a href="#involved">Get Involved</a><a href="mailto:info@douglassemail.com">Contact Us</a></div></footer>
+  <script>const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('.desktop-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});document.querySelectorAll('.desktop-nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));</script>
 </body>
-
 </html>
