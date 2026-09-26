@@ -24,6 +24,6 @@ Cloudflare Pages serves this directory as static assets (`wrangler.jsonc`, `asse
 
 Slugs, west to east: `fuller`, `morris`, `campbell`, `stallworth`, `allen`, `oyster`, `draper`, `big-redfish`, `little-redfish`, `alligator`, `western`, `eastern`, `deer`, `camp-creek`, `powell`.
 
-Shared files are `styles.css` and `site.js` (menu and map highlighting only). Photographs live in `images/` and are credited on the page. They show south Walton shores and parks. A photograph is named for a specific lake only when the picture is of that lake.
+Shared files are `styles.css` and `site.js` (menu and map highlighting only). Photographs live in `images/` and are credited on the page. `CREDITS.md` lists which pictures are a named lake and which are a nearby shore or park.
 
 Acreages are approximate and vary by source. The site footer says where the figures come from, without linking to addresses this repo has not verified.
