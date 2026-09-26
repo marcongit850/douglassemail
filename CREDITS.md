@@ -39,6 +39,14 @@ These files are in `images/lakes/`. They are natural-color frames exported from 
 | `images/seagrove-beach.jpg` | Seagrove Beach | TheBeachBro, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seagrove_Beach.jpg). Kept in the repository; the Eastern Lake page uses the aerial above. |
 | `images/deer-beach.jpg` | Gulf view from the Deer Lake State Park boardwalk, not the lake surface | Staugbeachbum, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DeerLakeSP.JPG). Kept in the repository; the Deer Lake page uses the aerial above. |
 
-## Search
+## Ground-photo search
 
-Wikimedia Commons and Openverse were searched for a freely licensed ground photograph of each lake. Files that name a different lake were rejected, including Alligator Lake in Columbia County and Redfish Lake in Idaho. The only Commons file found that names Oyster Lake in Walton County is a close portrait of a green heron at the outflow, so the page uses the aerial of the lake instead. No ground photograph turned up for Fuller, Morris, Campbell, Stallworth, Allen, Draper, Big Redfish, Little Redfish, Alligator, Eastern, Deer Lake’s surface, or Camp Creek that the file text identifies as that lake.
+Wikimedia Commons (title search, place categories, and a geotagged search within 2 km of each lake), Openverse, and Flickr results inside Openverse were searched for a freely licensed ground photograph of each lake. Files that name a different lake were rejected, including Alligator Lake in Columbia County and Redfish Lake in Idaho.
+
+Verified ground photographs that name the water:
+
+- Western Lake: the shore, the County Road 30A bridge, the park-entrance bridge, and a fish-trap buoy. The shore photograph is the lake page. The County Road 30A bridge is on the home page.
+- Lake Powell: the bridge at Camp Helen State Park.
+- Oyster Lake: a close portrait of a green heron at the outflow (`File:Green heron at Oyster Lake Outflow.jpg`, The Bushranger, CC BY-SA 4.0). It does not show the lake, so the page uses the aerial.
+
+No freely licensed ground photograph turned up for Fuller, Morris, Campbell, Stallworth, Allen, Draper, Big Redfish, Little Redfish, Alligator, Eastern, the surface of Deer Lake, or Camp Creek that the file text identifies as that lake. Nearby Commons files are Topsail Hill Preserve or Grayton Beach State Park scenery, Seagrove storefronts, or Camp Helen buildings. Those stay off the lake pages. Each of those pages uses the aerial above, which is centered on that lake.
