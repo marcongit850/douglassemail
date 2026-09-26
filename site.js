@@ -24,9 +24,7 @@
       el.classList.toggle("is-active", el.getAttribute("data-lake") === id);
     });
     if (!caption) return;
-    var source =
-      document.querySelector('.lake-directory a[data-lake="' + id + '"]') ||
-      document.querySelector('.name-index a[data-lake="' + id + '"]');
+    var source = document.querySelector('[data-caption][data-lake="' + id + '"]');
     var text = source && source.getAttribute("data-caption");
     if (text) caption.textContent = text;
   }
