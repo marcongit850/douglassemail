@@ -1,0 +1,13 @@
+# Not public site files.
+/wrangler.jsonc
+/wrangler.toml
+/package.json
+/package-lock.json
+/node_modules
+/.wrangler
+/.dev.vars
+/.git
+/.github
+/.gitignore
+/.assetsignore
+/README.md

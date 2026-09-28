@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f4f1ea;
+  --fg: #1c1915;
+  --muted: #5e584e;
+  --link: #0b5f4a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141311;
+    --fg: #f4f0e8;
+    --muted: #b7b0a4;
+    --link: #8dceb8;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Georgia, "Iowan Old Style", Palatino, serif;
+}
+
+main {
+  max-width: 36rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.domain {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 4vw, 2.15rem);
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.next {
+  margin: 1.75rem 0 0;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.95rem;
+}
+
+a {
+  color: var(--link);
+}
